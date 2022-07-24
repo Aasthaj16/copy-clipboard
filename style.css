@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: rgb(9, 8, 8);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.textbox,
+textarea {
+    height: 15rem;
+    padding: 0.5rem;
+}
+
+textarea {
+    border: none;
+}
+
+button {
+    padding: 10px;
+    width: 150px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border-color: rgb(49, 202, 200);
+}
+
+button:hover {
+    background-color: rgb(49, 202, 200);
+    color: black
+}
